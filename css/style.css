@@ -1,0 +1,44 @@
+.MAIN{
+    width: 100mv;
+    height: 670px;
+    background-color: #82b1b1;
+}
+
+.ALL{
+    position: absolute;
+    height: 640px;
+    width: 85%;
+    top: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.SIDEBAR{
+
+    background-color: #25586b;
+}
+.ICONS{
+    text-align: center;
+    margin-top: 50px;
+}
+.ICONS i{
+    margin-top: 50px;
+}
+.ICONS i:hover{
+    transition: 0.2s;
+    transform: translateX(20px);
+}
+/****************************************/
+.CONTENT{
+    background-color: #f5f6f8;
+}
+.CONTENT .navbar-brand span{
+    margin-left: 10px;
+}
+.CONTENT .navbar-nav .nav-item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+}
+.card img{
+    height: 200px;
+}
